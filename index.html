@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOMO Pad</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #111111;
+      --sub: #666666;
+      --line: #e8e8e8;
+      --accent: #0a66c2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #f7f8fa 0%, #eef2f6 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 20px 80px;
+    }
+
+    .hero {
+      background: var(--card);
+      border-radius: 24px;
+      padding: 44px 28px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.88rem;
+      color: var(--accent);
+      background: rgba(10, 102, 194, 0.08);
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+      font-weight: 600;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 2.2rem;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    .lead {
+      font-size: 1.06rem;
+      color: var(--sub);
+      max-width: 720px;
+      margin-bottom: 28px;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 14px;
+      font-weight: 600;
+      transition: 0.18s ease;
+      border: 1px solid transparent;
+    }
+
+    .btn-primary {
+      background: var(--text);
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.92;
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: var(--text);
+      border-color: var(--line);
+    }
+
+    .btn-secondary:hover {
+      border-color: #cfd6de;
+      background: #fafafa;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 24px 22px;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.05);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      margin: 0 0 14px;
+      color: var(--sub);
+    }
+
+    .lang-section {
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer {
+      margin-top: 24px;
+      color: var(--sub);
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    a.inline {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a.inline:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 720px) {
+      .wrap {
+        padding: 32px 16px 56px;
+      }
+
+      .hero {
+        padding: 30px 20px;
+        border-radius: 20px;
+      }
+
+      h1 {
+        font-size: 1.85rem;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="badge">LOMO Pad</div>
+      <h1>Wireless trackpad and keyboard for your Mac</h1>
+      <p class="lead">
+        LOMO Pad turns your iPhone or iPad into a simple wireless trackpad and keyboard for your Mac,
+        using your local network connection.
+      </p>
+
+      <div class="button-row">
+        <a class="btn btn-primary" href="./privacy-policy.html">Privacy Policy</a>
+        <a class="btn btn-secondary" href="./support.html">Support</a>
+      </div>
+
+      <div class="lang-section">
+        <h1 style="font-size:1.6rem; margin-top:0;">Mac을 위한 무선 트랙패드 및 키보드</h1>
+        <p class="lead" style="margin-bottom:18px;">
+          LOMO Pad는 iPhone 또는 iPad를 Mac용 무선 트랙패드와 키보드처럼 사용할 수 있게 해주는 앱이다.
+          모든 연결은 사용자의 로컬 네트워크를 기반으로 이루어진다.
+        </p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Privacy Policy</h2>
+        <p>
+          Read how LOMO Pad handles information, including local network usage and data practices.
+        </p>
+        <a class="inline" href="./privacy-policy.html">Open Privacy Policy</a>
+      </div>
+
+      <div class="card">
+        <h2>Support</h2>
+        <p>
+          Find setup steps, troubleshooting tips, and contact information for LOMO Pad.
+        </p>
+        <a class="inline" href="./support.html">Open Support Page</a>
+      </div>
+
+      <div class="card">
+        <h2>개인정보 처리방침</h2>
+        <p>
+          로컬 네트워크 사용 방식과 데이터 처리 원칙 등 LOMO Pad의 개인정보 관련 내용을 확인할 수 있다.
+        </p>
+        <a class="inline" href="./privacy-policy.html">개인정보 처리방침 보기</a>
+      </div>
+
+      <div class="card">
+        <h2>지원</h2>
+        <p>
+          연결 방법, 문제 해결 안내, 문의 이메일 등 LOMO Pad 사용에 필요한 지원 정보를 확인할 수 있다.
+        </p>
+        <a class="inline" href="./support.html">지원 페이지 보기</a>
+      </div>
+    </section>
+
+    <div class="footer">
+      Contact: <a class="inline" href="mailto:jikookimlomo@gmail.com">jikookimlomo@gmail.com</a><br />
+      © 2026 LOMO Pad
+    </div>
+  </div>
+</body>
+</html>
