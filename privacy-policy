@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | LOMO Pad</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
+      color: #111;
+      background: #f7f7f7;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 32px 28px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    }
+    h1, h2, h3 {
+      line-height: 1.3;
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+    p, li {
+      font-size: 1rem;
+      color: #222;
+    }
+    .meta {
+      color: #666;
+      margin-bottom: 24px;
+    }
+    .lang {
+      margin-top: 40px;
+      padding-top: 28px;
+      border-top: 1px solid #e8e8e8;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 36px;
+      font-size: 0.95rem;
+      color: #666;
+    }
+    .nav {
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="nav">
+        <a href="./support.html">Support</a>
+      </div>
+
+      <h1>Privacy Policy for LOMO Pad</h1>
+      <p class="meta"><strong>Effective Date:</strong> April 10, 2026</p>
+
+      <p>
+        This Privacy Policy explains how LOMO Pad ("we," "us," or "our") handles information when you use the
+        LOMO Pad application (the "App") on iOS and macOS.
+      </p>
+
+      <h2>1. Information Collection and Use</h2>
+      <p>
+        We do not collect, store, or transmit personal data to our servers.
+        LOMO Pad is designed to work entirely within your local network environment.
+        The App does not require an internet connection to function, and we do not use third-party analytics,
+        crash reporting, advertising, or user tracking services.
+      </p>
+
+      <h2>2. Local Network Usage</h2>
+      <p>
+        LOMO Pad requires access to your local network (including Wi-Fi or peer-to-peer local connections)
+        in order to discover and connect your iOS device to your macOS host device.
+      </p>
+      <ul>
+        <li>
+          <strong>Purpose:</strong> This permission is used only to transmit trackpad gestures and keyboard input
+          from your iPhone or iPad to your Mac.
+        </li>
+        <li>
+          <strong>Data Handling:</strong> Control data is transmitted only within your local network connection.
+          We do not receive, collect, or store your input data, gesture data, or network information.
+        </li>
+      </ul>
+
+      <h2>3. Third-Party Services</h2>
+      <p>
+        LOMO Pad does not integrate with third-party services that collect user data.
+      </p>
+
+      <h2>4. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time.
+        If we make changes, we will post the updated Privacy Policy on this page and revise the
+        "Effective Date" at the top.
+      </p>
+
+      <h2>5. Contact Us</h2>
+      <p>
+        If you have any questions or suggestions about this Privacy Policy, you may contact us at:
+        <a href="mailto:jikookimlomo@gmail.com">jikookimlomo@gmail.com</a>
+      </p>
+
+      <div class="lang">
+        <h1>개인정보 처리방침</h1>
+        <p class="meta"><strong>시행일자:</strong> 2026년 4월 10일</p>
+
+        <p>
+          본 개인정보 처리방침은 사용자가 iOS 및 macOS용 LOMO Pad 애플리케이션(이하 "앱")을 사용할 때,
+          LOMO Pad(이하 "당사")가 사용자 정보를 어떻게 처리하는지 설명합니다.
+        </p>
+
+        <h2>1. 개인정보 수집 및 이용</h2>
+        <p>
+          당사는 사용자에 관한 개인 데이터를 당사 서버로 수집, 저장 또는 전송하지 않습니다.
+          LOMO Pad는 사용자의 로컬 네트워크 환경 안에서 작동하도록 설계되어 있습니다.
+          앱 작동을 위해 인터넷 연결이 필수적이지 않으며,
+          당사는 타사의 분석 도구(Analytics), 크래시 리포팅, 광고, 사용자 추적 서비스를 사용하지 않습니다.
+        </p>
+
+        <h2>2. 로컬 네트워크 사용</h2>
+        <p>
+          LOMO Pad는 iOS 기기와 macOS 호스트 기기를 찾고 연결하기 위해
+          로컬 네트워크(Wi-Fi 또는 P2P 로컬 연결)에 대한 접근 권한이 필요합니다.
+        </p>
+        <ul>
+          <li>
+            <strong>사용 목적:</strong> 이 권한은 iPhone 또는 iPad에서 입력한 트랙패드 제스처와 키보드 입력을
+            Mac으로 전달하기 위한 목적으로만 사용됩니다.
+          </li>
+          <li>
+            <strong>데이터 처리 방식:</strong> 제어 데이터는 사용자의 로컬 네트워크 연결 내에서만 전송됩니다.
+            당사는 사용자의 입력 데이터, 제스처 데이터, 네트워크 정보를 수신, 수집 또는 저장하지 않습니다.
+          </li>
+        </ul>
+
+        <h2>3. 제3자 서비스</h2>
+        <p>
+          LOMO Pad는 사용자 데이터를 수집하는 어떠한 제3자 서비스와도 연동되지 않습니다.
+        </p>
+
+        <h2>4. 개인정보 처리방침의 변경</h2>
+        <p>
+          당사는 필요에 따라 본 개인정보 처리방침을 수정할 수 있습니다.
+          변경 사항이 있을 경우 이 페이지에 업데이트된 개인정보 처리방침을 게시하고,
+          상단의 시행일자를 함께 수정합니다.
+        </p>
+
+        <h2>5. 문의</h2>
+        <p>
+          본 개인정보 처리방침에 관한 문의사항이 있으시면 아래 이메일로 연락해 주세요:
+          <a href="mailto:jikookimlomo@gmail.com">jikookimlomo@gmail.com</a>
+        </p>
+      </div>
+
+      <p class="footer">
+        © 2026 LOMO Pad
+      </p>
+    </div>
+  </div>
+</body>
+</html>
