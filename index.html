@@ -12,6 +12,8 @@
       --sub: #666666;
       --line: #e8e8e8;
       --accent: #0a66c2;
+      --soft: #f4f7fb;
+      --soft-line: #dde6f0;
     }
 
     * {
@@ -60,8 +62,28 @@
     .lead {
       font-size: 1.06rem;
       color: var(--sub);
-      max-width: 720px;
-      margin-bottom: 28px;
+      max-width: 740px;
+      margin-bottom: 18px;
+    }
+
+    .notice {
+      margin-top: 22px;
+      padding: 18px 16px;
+      border-radius: 16px;
+      background: var(--soft);
+      border: 1px solid var(--soft-line);
+    }
+
+    .notice strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.98rem;
+    }
+
+    .notice p {
+      margin: 0;
+      color: #344054;
+      font-size: 0.98rem;
     }
 
     .button-row {
@@ -126,7 +148,7 @@
     }
 
     .lang-section {
-      margin-top: 24px;
+      margin-top: 28px;
       padding-top: 24px;
       border-top: 1px solid var(--line);
     }
@@ -176,6 +198,16 @@
         LOMO Pad turns your iPhone or iPad into a simple wireless trackpad and keyboard for your Mac
         through your local network.
       </p>
+      <p class="lead">
+        To use LOMO Pad with your Mac, open this website on your Mac and follow the Mac Host setup steps.
+      </p>
+
+      <div class="notice">
+        <strong>Important</strong>
+        <p>
+          LOMO Pad requires the Mac Host app to be installed on your Mac before your iPhone or iPad can connect.
+        </p>
+      </div>
 
       <div class="button-row">
         <a class="btn btn-primary" href="./mac-host.html">Mac Host Setup</a>
@@ -185,10 +217,20 @@
 
       <div class="lang-section">
         <h1 style="font-size:1.6rem; margin-top:0;">Mac을 위한 무선 트랙패드 및 키보드</h1>
-        <p class="lead" style="margin-bottom:18px;">
+        <p class="lead">
           LOMO Pad는 iPhone 또는 iPad를 Mac용 무선 트랙패드와 키보드처럼 사용할 수 있게 해주는 앱이다.
           모든 연결은 사용자의 로컬 네트워크를 기반으로 이루어진다.
         </p>
+        <p class="lead" style="margin-bottom:18px;">
+          LOMO Pad를 사용하려면 이 웹페이지를 Mac에서 열고 Mac Host 설치 단계를 진행하면 된다.
+        </p>
+
+        <div class="notice">
+          <strong>중요</strong>
+          <p>
+            iPhone 또는 iPad를 연결하기 전에, Mac에 LOMO Pad Host 앱이 먼저 설치되어 있어야 한다.
+          </p>
+        </div>
       </div>
     </section>
 
