@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mac Host Setup | LOMO Pad</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #111111;
+      --sub: #666666;
+      --line: #e8e8e8;
+      --accent: #0a66c2;
+      --soft: #f3f2ff;
+      --soft-2: #ebe9ff;
+      --soft-text: #2b2850;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, #f7f8fa 0%, #eef2f6 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 20px 80px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 24px;
+      padding: 36px 28px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+    }
+
+    .nav {
+      margin-bottom: 18px;
+      font-size: 0.95rem;
+    }
+
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 14px;
+    }
+
+    .nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.45rem;
+      line-height: 1.3;
+    }
+
+    p {
+      color: #222;
+      margin: 0 0 16px;
+    }
+
+    .meta {
+      color: var(--sub);
+      margin-bottom: 28px;
+    }
+
+    .setup-box {
+      margin-top: 28px;
+      padding: 28px 22px;
+      border-radius: 20px;
+      background: linear-gradient(180deg, var(--soft) 0%, var(--soft-2) 100%);
+      color: var(--soft-text);
+    }
+
+    .setup-box p,
+    .setup-box li {
+      color: #454070;
+    }
+
+    ol {
+      padding-left: 22px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 14px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 16px;
+      border-radius: 14px;
+      background: #111111;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .download-btn:hover {
+      opacity: 0.92;
+    }
+
+    .link-row {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .mini-link {
+      display: inline-block;
+      font-size: 0.92rem;
+      color: var(--soft-text);
+      text-decoration: none;
+      border: 1px solid #c8c4ef;
+      padding: 9px 12px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.45);
+    }
+
+    .mini-link:hover {
+      background: rgba(255,255,255,0.75);
+    }
+
+    .lang {
+      margin-top: 36px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      color: var(--sub);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 720px) {
+      .wrap {
+        padding: 32px 16px 56px;
+      }
+
+      .card {
+        padding: 28px 20px;
+        border-radius: 20px;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="nav">
+        <a href="./">Home</a>
+        <a href="./privacy-policy.html">Privacy Policy</a>
+        <a href="./support.html">Support</a>
+      </div>
+
+      <h1>Mac Host Setup</h1>
+      <p class="meta">
+        To use LOMO Pad, you need to download and run LOMO Pad Host on your Mac.
+      </p>
+
+      <div class="setup-box">
+        <h2>Set up your Mac in 3 steps</h2>
+        <p>
+          Download the Mac host app, keep it running, and allow the required macOS permission.
+        </p>
+
+        <ol>
+          <li>
+            Download and open <strong>LOMO Pad Host</strong> on your Mac.<br />
+            <a class="download-btn" href="https://github.com/jikoolomo/lomo-apps-lomopad/releases/download/v1.0.0-host/LOMO-Pad-Host-macOS.zip">Download Mac Host</a>
+          </li>
+          <li>
+            Keep <strong>LOMO Pad Host</strong> running from your menu bar.
+          </li>
+          <li>
+            On your Mac, go to <strong>System Settings &gt; Privacy &amp; Security &gt; Accessibility</strong>
+            and allow LOMO Pad Host.
+          </li>
+        </ol>
+
+        <p style="margin-top:18px;">
+          After that, open LOMO Pad on your iPhone or iPad and select your Mac to connect.
+        </p>
+
+        <div class="link-row">
+          <a class="mini-link" href="./">Website</a>
+          <a class="mini-link" href="./privacy-policy.html">Privacy Policy</a>
+          <a class="mini-link" href="./support.html">Support</a>
+        </div>
+      </div>
+
+      <div class="lang">
+        <h1 style="font-size:1.5rem;">Mac Host 설정</h1>
+        <p class="meta">
+          LOMO Pad를 사용하려면 Mac에 LOMO Pad Host를 다운로드하고 실행해야 한다.
+        </p>
+
+        <div class="setup-box">
+          <h2>3단계로 설정하기</h2>
+          <p>
+            Mac Host를 다운로드하고 실행한 뒤, macOS 권한만 허용하면 된다.
+          </p>
+
+          <ol>
+            <li>
+              Mac에서 <strong>LOMO Pad Host</strong>를 다운로드하고 실행한다.<br />
+              <a class="download-btn" href="https://github.com/jikoolomo/lomo-apps-lomopad/releases/download/v1.0.0-host/LOMO-Pad-Host-macOS.zip">Mac Host 다운로드</a>
+            </li>
+            <li>
+              <strong>LOMO Pad Host</strong>를 메뉴 막대에서 실행 상태로 유지한다.
+            </li>
+            <li>
+              Mac에서 <strong>시스템 설정 &gt; 개인정보 보호 및 보안 &gt; 손쉬운 사용</strong>으로 이동해
+              LOMO Pad Host를 허용한다.
+            </li>
+          </ol>
+
+          <p style="margin-top:18px;">
+            이후 iPhone 또는 iPad에서 LOMO Pad를 열고 Mac을 선택해 연결하면 된다.
+          </p>
+
+          <div class="link-row">
+            <a class="mini-link" href="./">Website</a>
+            <a class="mini-link" href="./privacy-policy.html">Privacy Policy</a>
+            <a class="mini-link" href="./support.html">Support</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        Contact: <a href="mailto:jikookimlomo@gmail.com">jikookimlomo@gmail.com</a><br />
+        © 2026 LOMO Pad
+      </div>
+    </div>
+  </div>
+</body>
+</html>
